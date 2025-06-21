@@ -24,6 +24,7 @@ builds:
     ldflags:
       - "-X donetick.com/core/config.Version={{.Version}} -X donetick.com/core/config.Commit={{.Commit}} -X donetick.com/core/config.BuildDate={{.Date}}"
     targets:
+      - freebsd_amd64
       - linux_amd64_v1
       - darwin_arm64
       - darwin_amd64
